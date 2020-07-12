@@ -1,0 +1,62 @@
+7-5
+使用Vuex时报错提示Cannot read property 'commit' of undefined
+
+vuex.esm.js?2f62:456 [vuex] unknown mutation type: addToCart
+
+unknown action type: addCart
+
+Error in render: "TypeError: Cannot read property 'find' of 
+undefined"
+
+found in
+
+---> <BottomBar>
+
+vue.runtime.esm.js?2b0e:619 [Vue warn]: Property or method "cartCount" is not defined on the instance but referenced during render. 
+Make sure that this property is reactive, either in the data option, or for class-based components, by initializing the property. See: 
+
+Uncaught (in promise) Error: Avoided redundant navigation 
+to current location: "/cart".
+
+7-6
+TypeError: Cannot read property 'style' of undefined
+    at new BScroll
+
+
+
+http://152.136.185.210:8000/api/n3/category
+http://152.136.185.210:8000/api/n3/subcategory?maitKey=3627
+http://152.136.185.210:8000/api/n3/subcategory/detail?miniWallkey=10062603&&type=pop
+
+怎样从后端数据获取想要的数据
+
+[Vue warn]: Invalid prop: type check failed for prop "categoryData". Expected Object, got Array 
+
+vue.runtime.esm.js?2b0e:619 [Vue warn]: Error in render: "TypeError: Cannot read property 'subcategories' of undefined"
+
+vue.runtime.esm.js?2b0e:619 [Vue warn]: Invalid prop: type check failed for prop "categoryDetail". Expected Object, got Array 
+
+found in
+
+Vue warn]: Error in render: "TypeError: Cannot read property 'img' of undefined"
+
+TypeError: Cannot read property 'img' of undefined
+    at VueComponent.showImage
+
+vue.runtime.esm.js?2b0e:619 [Vue warn]: Duplicate keys detected: '6'. This may cause an update error.
+
+vue.runtime.esm.js?2b0e:619 [Vue warn]: Duplicate keys detected: . This may cause an update error.
+
+[Vue warn]: Property or method "index" is not defined on the instance but referenced during render. Make sure that this property is reactive, either in the data option, or for class-based components, by initializing the property. See:
+
+[Vue warn]: Error in v-on handler: "TypeError: Cannot read property 'maitKey' of undefined"
+
+found in
+
+---> <TabMenu>
+
+vue.runtime.esm.js?2b0e:619 [Vue warn]: Error in render: "TypeError: Cannot read property 'subcategories' of undefined"
+
+found in
+
+---> <Category>
